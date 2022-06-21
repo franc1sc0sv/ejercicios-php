@@ -111,6 +111,7 @@ $proyectos = $Objconexion->consultar("SELECT * FROM `proyectos` ");
                             </td>
                             <td><?php echo $proyecto['description'] ?></td>
                             <td> <a class="btn btn-danger" href="?delete=<?php echo $proyecto['id'] ?>">Eliminar</a> </td>
+                            <td> <a class="btn btn-success">Editar</a> </td>
 
                         </tr>
                     <?php } ?>
