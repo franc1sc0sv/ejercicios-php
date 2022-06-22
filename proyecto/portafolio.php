@@ -1,8 +1,7 @@
 <?php include("./header.php") ?>
 <?php include("./conexion.php") ?>
+
 <?php
-
-
 //Insertar datos 
 if ($_POST) {
     // if ($_FILE) {
@@ -28,6 +27,7 @@ if ($_POST) {
     $Objconexion->ejecutar($sql);
     // }
     header("location:portafolio.php");
+    print_r($Objconexion-> $xD);
 
 }
 
