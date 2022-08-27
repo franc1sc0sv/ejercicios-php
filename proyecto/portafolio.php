@@ -27,8 +27,6 @@ if ($_POST) {
     $Objconexion->ejecutar($sql);
     // }
     header("location:portafolio.php");
-    print_r($Objconexion-> $xD);
-
 }
 
 
@@ -51,7 +49,8 @@ if ($_GET) {
 
 //Selecionar datos
 $Objconexion = new conection();
-$proyectos = $Objconexion->consultar("SELECT * FROM `proyectos` ");
+$proyectos = $Objconexion->consultar("SELECT * FROM `proyectos`");
+
 
 //print_r($resultado)
 

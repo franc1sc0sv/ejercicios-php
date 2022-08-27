@@ -6,7 +6,7 @@ class conection{
     private $server="localhost";
     private $user="root";
     private $password="";
-    private $conection;
+    public $conection;
 
     public function __construct(){
         try {
@@ -34,9 +34,8 @@ class conection{
 
 
     }
+
+    // public function lastid(){
+    //     return $this->conection->lastInsertId();
+    // }
 }
-
-
-
-
-?>
